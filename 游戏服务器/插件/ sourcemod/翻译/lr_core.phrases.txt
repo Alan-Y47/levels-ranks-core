@@ -34,7 +34,7 @@
 		"en"		"Rank: {1}\nExp: {2}\nPlace: {3} of {4}\n "
 		"ru"		"Звание: {1}\nОпыт: {2}\nМесто: {3} из {4}\n "
 		"ua"		"Звання: {1}\nДосвід: {2}\nМісце: {3} из {4}\n "
-		"chi"		"段位: {1}\n经验值: {2}\n阶段: {3} of {4}\n "
+		"chi"		"段位: {1}\n经验值: {2}\n排名: {3} of {4}\n "
 		"es"		"Rango: {1}\nExp: {2}\nPosición: {3} de {4}\n "
 		"de"		"Rang: {1}\nExp: {2}\nPlatz: {3} of {4}"
 	}
@@ -70,7 +70,7 @@
 		"en"		"Give/Take exp. points"
 		"ru"		"Выдать/Забрать очки опыта"
 		"ua"		"Видати/Забрати поінти досвіду"
-		"chi"		"给予/拿走 经验值. 点数"
+		"chi"		"给予/剥夺 经验值. 点数"
 		"es"		"Dar/Quitar puntos exp."
 		"de"		"Geben/Nehmen von Erfahrungspunkten"
 	}
@@ -137,7 +137,7 @@
 		"en"		"Session data"
 		"ru"		"Данные за сессию"
 		"ua"		"Дані за сесію"
-		"chi"		"当前数据, 会话数据"
+		"chi"		"当前数据"
 		"es"		"Datos de la sesión"
 		"de"		"Sitzungsdaten"
 	}
@@ -147,7 +147,7 @@
 		"en"		"Session data\n \nExp. points: {1} \nPlace: {2}\n \nPlayed: {3} h {4} m {5} sec\n \nKills: {6}\nDeaths: {7}\nAssists: {8}\nHeadshots: {9} ({10}%%)\nKDR: {11}\n \nAccuracy: {12}%%\nWinrate: {13}%%"
 		"ru"		"Данные за сессию\n \nОчки опыта: {1}\nМесто в топе: {2}\n \nСыграно: {3} ч {4} м {5} сек\n \nУбийств: {6}\nСмертей: {7}\nАссистов: {8}\nХедшотов: {9} ({10}%%)\nKDR: {11}\n \nТочность: {12}%%\nВинрейт: {13}%%"
 		"ua"		"Дані за сесію\n \nПоінти досвіду: {1}\nМісце в топі: {2}\n \nЗіграно: {3} г {4} хв {5} сек\n \nВбивств: {6}\nСмертей: {7}\nСприянь: {8}\nХедшотів: {9} ({10}%%)\nKDR: {11}\n \nВлучність: {12}%%\nВінрейт: {13}%%"
-		"chi"		"当前数据, 会话数据\n \n经验值. 点数: {1}\n放置在顶部: {2}\n \n已游玩: {3} 小时 {3} 分 {5} 秒\n \n击杀: {6}\n死亡: {7}\n助攻: {8}\n爆头: {9} ({10}%%)\nK/D比: {11}\n \n精准度: {12}%%\n胜率: {13}%%"
+		"chi"		"当前数据\n \n经验值. 点数: {1}\n排名: {2}\n \n已游玩: {3} 小时 {3} 分 {5} 秒\n \n击杀: {6}\n死亡: {7}\n助攻: {8}\n爆头: {9} ({10}%%)\nK/D比: {11}\n \n精准度: {12}%%\n胜率: {13}%%"
 		"es"		"Datos de la sesión\n \nPuntos exp.: {1}\nLugar: {2}\n \nJugado: {3} h {4} m {5} seg\n \nMatado: {6}\nMuerto: {7}\nAsistencias: {8}\nHeadshots: {9} ({10}%% \nKDR: {11}\n \nPrecisión: {12}%%\nRatio de victorias: {13}%%"
 		"de"		"Sitzungsdaten\n \nErfahrungspunkte: {1}\nPlatz: {2}\n \nGespielt: {3} s {4} m {5} sek\n \nKills: {6}\nTode: {7}\nAssists: {8}\nKopfschüsse: {9} ({10}%%)\nKD: {11}\n \nGenauigkeit: {12}%%\nGewinnrate: {13}%%"
 	}
@@ -166,7 +166,7 @@
 		"en"		"Reset my stats\n    Cooldown: {1} h. {2} m. {3} sec."
 		"ru"		"Сбросить статистику\n    Доступно через: {1} ч. {2} м. {3} сек."
 		"ua"		"Скинути статистику\n    Доступно через: {1} г. {2} хв. {3} сек."
-		"chi"		"重置我的数据\n    剩余时间 {1} 小时 {2} 分 {3} 秒"
+		"chi"		"重置我的数据\n    重置冷却时间 {1} 小时 {2} 分 {3} 秒"
 		"es"		"Resetear mis estadísticas\n    Queda: {1} h. {2} m. {3} seg."
 		"de"		"Meine Statistiken zurücksetzen\n    Abklingzeit: {1} s. {2} m. {3} sek."
 	}
@@ -175,7 +175,7 @@
 		"en"		"Reset the statistics?\n \nYou reset all your options, \nlevels, frags and the like. \nYou are sure?"
 		"ru"		"Обнулить статистику?\n \nВы обнулите все свои параметры, \nуровни, фраги и тому подобное. \nВы точно уверены?"
 		"ua"		"Скинути статистику?\n \nВи скинете всі свої параметри, \nРівні, фраги тощо. \nВи точно впевнені?"
-		"chi"		"重置自己的数据?\n \n你将重置你所有的选项, \n等级, 击杀 等等数据. \n你确定?"
+		"chi"		"重置自己的数据?\n \n你将重置你所有的选项, \n等级, 击杀 等等数据. \n你确定吗?"
 		"es"		"¿Resetear estadísticas?\n \nResetearas todas tu configuración, \nniveles, frags... etc. \n¿Estás seguro?"
 		"de"		"Alle Statistiken zurücksetzten?\n \nEs werden alle Optionen, \nLevel, Kills und Ähnliches zurückgesetzt. \nBist du sicher?"
 	}
@@ -288,7 +288,7 @@
 		"en"		"There are only {RED}{1} {WHITE}players from {RED}{2}"
 		"ru"		"Присутствует только {RED}{1} {WHITE}игрока из {RED}{2}"
 		"ua"		"Присутні тільки {RED}{1} {WHITE}гравця з {RED}{2}"
-		"chi"		"这里只有 {RED}{1} {WHITE}名玩家 来自 {RED}{2}"
+		"chi"		"这里只有 {RED}{1} {WHITE}名玩家 至少需要 {RED}{2} {WHITE}名玩家"
 		"es"		"Solo hay {RED}{1} {WHITE}jugadores de {RED}{2}"
 		"de"		"Es gibt nur {RED}{1} {WHITE}Spieler von {RED}{2}"
 	}
@@ -297,7 +297,7 @@
 		"en"		"Enter: {PINK}!lvl {WHITE}- main menu"
 		"ru"		"Введи: {PINK}!lvl {WHITE}- главное меню"
 		"ua"		"Введи: {PINK}!lvl {WHITE}- головне меню"
-		"chi"		"输入: {PINK}!lvl {WHITE}- 打开主菜单"
+		"chi"		"输入: {PINK}!lvl {WHITE}- 打开排名统计主菜单"
 		"es"		"Escribir: {PINK}!lvl {WHITE}- menú principal"
 		"de"		"Schreib: {PINK}!lvl {WHITE}- Hauptmenü"
 	}
@@ -347,7 +347,7 @@
 		"en"		"Your exp: {RED}{1} [{2} for suicide]"
 		"ru"		"Ваш опыт: {RED}{1} [{2} за самоубийство]"
 		"ua"		"Ваш досвід: {RED}{1} [{2} за самогубство]"
-		"chi"		"你的经验值: {RED}{1} [{2} 因为自杀]"
+		"chi"		"你的经验值: {RED}{1} [{2} 自杀]"
 		"es"		"Tu exp: {RED}{1} [{2} por suicidarte]"
 		"de"		"Deine Exp: {RED}{1} [{2} für Selbstmord]"
 	}
@@ -357,7 +357,7 @@
 		"en"		"Your exp: {GREEN}{1} [{2} for a kill]"
 		"ru"		"Ваш опыт: {GREEN}{1} [{2} за убийство]"
 		"ua"		"Ваш досвід: {GREEN}{1} [{2} за самогубство]"
-		"chi"		"你的经验值: {GREEN}{1} [{2} 来自击杀]"
+		"chi"		"你的经验值: {GREEN}{1} [{2} 击杀]"
 		"es"		"Tu exp: {GREEN}{1} [{2} por matar]"
 		"de"		"Deine Exp: {GREEN}{1} [{2} für einen Kill]"
 	}
@@ -367,7 +367,7 @@
 		"en"		"Your exp: {RED}{1} [{2} for dying]"
 		"ru"		"Ваш опыт: {RED}{1} [{2} за вашу смерть]"
 		"ua"		"Ваш досвід: {RED}{1} [{2} за вашу смерть]"
-		"chi"		"你的经验值: {RED}{1} [{2} 因为死亡]"
+		"chi"		"你的经验值: {RED}{1} [{2} 死亡]"
 		"es"		"Tu exp: {RED}{1} [{2} por morir]"
 		"de"		"Deine Exp: {RED}{1} [{2} fürs Sterben]"
 	}
@@ -377,7 +377,7 @@
 		"en"		"Your exp: {RED}{1} [{2} for teamkill]"
 		"ru"		"Ваш опыт: {RED}{1} [{2} за убийство товарища]"
 		"ua"		"Ваш досвід: {RED}{1} [{2} за вбивство товариша]"
-		"chi"		"你的经验值: {RED}{1} [{2} 因为击杀队友]"
+		"chi"		"你的经验值: {RED}{1} [{2} 击杀队友]"
 		"es"		"Tu exp: {RED}{1} [{2} por matar a compañer@s]"
 		"de"		"Deine Exp: {RED}{1} [{2} für einen Teamkill]"
 	}
@@ -387,7 +387,7 @@
 		"en"		"Your exp: {OLIVE}{1} [{2} for a headshot]"
 		"ru"		"Ваш опыт: {OLIVE}{1} [{2} за убийство в голову]"
 		"ua"		"Ваш досвід: {OLIVE}{1} [{2} за вбивство в голову]"
-		"chi"		"你的经验值: {OLIVE}{1} [{2} 来自爆头]"
+		"chi"		"你的经验值: {OLIVE}{1} [{2} 爆头]"
 		"es"		"Tu exp: {OLIVE}{1} [{2} por disparo a la cabeza]"
 		"de"		"Deine Exp: {OLIVE}{1} [{2} für einen Kopfschuss]"
 	}
@@ -397,7 +397,7 @@
 		"en"		"Your exp: {BLUE}{1} [{2} for an assist]"
 		"ru"		"Ваш опыт: {BLUE}{1} [{2} за помощь в убийстве]"
 		"ua"		"Ваш досвід: {BLUE}{1} [{2} за допомогу в убивстві]"
-		"chi"		"你的经验值: {BLUE}{1} [{2} 来自助攻]"
+		"chi"		"你的经验值: {BLUE}{1} [{2} 助攻]"
 		"es"		"Tu exp: {BLUE}{1} [{2} por asistencia]"
 		"de"		"Deine Exp: {BLUE}{1} [{2} für eine Unterstützung]"
 	}
@@ -407,7 +407,7 @@
 		"en"		"Your exp: {GREEN}{1} [{2} your team won]"
 		"ru"		"Ваш опыт: {GREEN}{1} [{2} ваша команда выиграла]"
 		"ua"		"Ваш досвід: {GREEN}{1} [{2} ваша команда виграла]"
-		"chi"		"你的经验值: {GREEN}{1} [{2} 来自团队胜利]"
+		"chi"		"你的经验值: {GREEN}{1} [{2} 团队胜利]"
 		"es"		"Tu exp: {GREEN}{1} [{2} tu equipo ganó]"
 		"de"		"Deine Exp: {GREEN}{1} [{2} dein Team hat gewonnen]"
 	}
@@ -417,7 +417,7 @@
 		"en"		"Your exp: {RED}{1} [{2} your team lost]"
 		"ru"		"Ваш опыт: {RED}{1} [{2} ваша команда проиграла]"
 		"ua"		"Ваш досвід: {RED}{1} [{2} ваша команда програла]"
-		"chi"		"你的经验值: {RED}{1} [{2} 因为团队失败]"
+		"chi"		"你的经验值: {RED}{1} [{2} 团队失败]"
 		"es"		"Your exp: {RED}{1} [{2} tu equipo perdió]"
 		"de"		"Deine Exp: {RED}{1} [{2} dein Team hat verloren]"
 	}
@@ -437,7 +437,7 @@
 		"en"		"Your exp: {LIME}{1} [{2} for planting the bomb]"
 		"ru"		"Ваш опыт: {LIME}{1} [{2} установка бомбы]"
 		"ua"		"Ваш досвід: {LIME}{1} [{2} установка бомби]"
-		"chi"		"你的经验值: {LIME}{1} [{2} 来自安装炸弹]"
+		"chi"		"你的经验值: {LIME}{1} [{2} 安装炸弹]"
 		"es"		"Tu exp: {LIME}{1} [{2} por plantar la bomba]"
 		"de"		"Deine Exp: {LIME}{1} [{2} für das Legen der Bombe]"
 	}
@@ -447,7 +447,7 @@
 		"en"		"Your exp: {LIME}{1} [{2} for defusing the bomb]"
 		"ru"		"Ваш опыт: {LIME}{1} [{2} разминирование бомбы]"
 		"ua"		"Ваш досвід: {LIME}{1} [{2} розмінування бомби]"
-		"chi"		"你的经验值: {LIME}{1} [{2} 来自拆除炸弹]"
+		"chi"		"你的经验值: {LIME}{1} [{2} 拆除炸弹]"
 		"es"		"Tu exp: {LIME}{1} [{2} por desactivar la bomba]"
 		"de"		"Deine Exp: {LIME}{1} [{2} für das Entschärfen der Bombe]"
 	}
@@ -477,7 +477,7 @@
 		"en"		"Your exp: {LIGHTBLUE}{1} [{2} you rescued the hostage]"
 		"ru"		"Ваш опыт: {LIGHTBLUE}{1} [{2} вы спасли заложника]"
 		"ua"		"Ваш досвід: {LIGHTBLUE}{1} [{2} ви врятували заручника]"
-		"chi"		"你的经验值: {LIGHTBLUE}{1} [{2} 来自人质救援]"
+		"chi"		"你的经验值: {LIGHTBLUE}{1} [{2} 人质救援]"
 		"es"		"Tu exp: {LIGHTBLUE}{1} [{2} por rescatar el rehén]"
 		"de"		"Deine Exp: {LIGHTBLUE}{1} [{2} für das Retten einer Geisel]"
 	}
@@ -497,7 +497,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for DoubleKill]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за DoubleKill]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за DoubleKill]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自双杀]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 双杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por Doble Kill]"
 		"de"		"Deine Exp: {PINK}{1} [{2} für Doppekill]"
 	}
@@ -507,7 +507,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for TripleKill]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за TripleKill]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за TripleKill]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自三杀]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 三杀]"
 		"es"		"Tu exp: {LIME}{1} [{2} por Triple Kill]"
 		"de"		"Deine Exp: {PINK}{1} [{2} für einen TripleKill]"
 	}
@@ -517,7 +517,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for Domination]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за Domination]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за Domination]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自Domination]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 四杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por Dominación]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für Domination]"
 	}
@@ -527,7 +527,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for Rampage]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за Rampage]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за Rampage]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自Rampage]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 五杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por Rampage]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für Rampage]"
 	}
@@ -537,7 +537,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for MegaKill]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за MegaKill]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за MegaKill]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自MegaKill]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 六杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por Mega Kill]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für einen MegaKill]"
 	}
@@ -547,7 +547,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for Ownage]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за Ownage]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за Ownage]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自Ownage]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 七杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por Ownage]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für Ownage]"
 	}
@@ -557,7 +557,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for UltraKill]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за UltraKill]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за UltraKill]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自UltraKill]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 八杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por Ultra Kill]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für einen UltraKill]"
 	}
@@ -567,7 +567,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for Killing Spree]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за Killing Spree]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за Killing Spree]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自Killing Spree]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 九杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por Matanza (Killing Spree)]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für einen Killing Spree]"
 	}
@@ -577,7 +577,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for MonsterKill]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за MonsterKill]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за MonsterKill]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自MonsterKill]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 十杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por Monster Kill]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für einen MonsterKill]"
 	}
@@ -587,7 +587,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for Unstoppable]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за Unstoppable]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за Unstoppable]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自Unstoppable]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 十一连杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por Imparable]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für Unstoppable]"
 	}
@@ -597,7 +597,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for God Like]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за God Like]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за God Like]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自God Like]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 十二连杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por God Like]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für God Like]"
 	}
@@ -607,7 +607,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for WickedSick]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за WickedSick]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за WickedSick]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自WickedSick]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 十三连杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por WickedSick]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für WickedSick]"
 	}
@@ -617,7 +617,7 @@
 		"en"		"Your exp: {PINK}{1} [{2} for HolyShit]"
 		"ru"		"Ваш опыт: {PINK}{1} [{2} за HolyShit]"
 		"ua"		"Ваш досвід: {PINK}{1} [{2} за HolyShit]"
-		"chi"		"你的经验值: {PINK}{1} [{2} 来自HolyShit]"
+		"chi"		"你的经验值: {PINK}{1} [{2} 十四连杀]"
 		"es"		"Tu exp: {PINK}{1} [{2} por Invencible]"
 		"de"		"Dein Exp: {PINK}{1} [{2} für HolyShit]"
 	}
