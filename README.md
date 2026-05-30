@@ -1,7 +1,7 @@
 [Levels Ranks] Core 3.1
 ===========================
 
-**[Levels Ranks] Core** - 这是一个统计插件，对于您来说，它是RankMe、Sod Stats等类似统计插件的绝佳替代品。其核心很简单，您执行各种游戏操作，会因此获得/失去经验值，当积累/失去一定数量的经验值时，您会获得特定的等级。
+**[Levels Ranks] Core** - 一个统计插件，是RankMe、Sod Stats等类似统计插件的绝佳替代品。其核心很简单，执行各种游戏操作，会因此获得/失去经验值，当积累/失去一定数量的经验值时，会获得特定的等级。
 统计学的种类：
 ----------------
 - 累计型（lr_type_statistics 0）
@@ -28,16 +28,16 @@
 </p>
 </details>
 
-Поддерживаемые игры:
+支持的游戏：
 --------------------
 - CS: Source (v90/v34)
 - CS: GO
 
-Требования:
+前置：
 -----------
 - SourceMod <a href="//sourcemod.net/downloads.php?branch=stable">1.10.6422</a> и выше.
 
-Команды:
+命令：
 -------
 - **sm_lvl** - открывает главное меню статистики.
 - **sm_lvl_reload** - перезагружает все конфигурационные файлы плагина.
@@ -47,27 +47,27 @@
 	- **stats** - сбросит данные о статистике (`kills`, `deaths`, `shoots`, `hits`, `headshots`, `assists`, `round_win`, `round_lose`).
 - **sm_lvl_del** - сбрасывает статистику у конкретного игрока.
 
-Установка:
+安装：
 ---------
 
-- Удалите прошлую версию плагина, если есть.
+- 如果有，请删除插件的旧版本。
 
-- Распакуйте содержимое по папкам.
+- 按文件夹解压内容。
 
-- Настройте файлы:
+- 设置文件：
 	- addons/sourcemod/configs/databases.cfg
 	- addons/sourcemod/configs/levels_ranks/settings.ini
 	- addons/sourcemod/configs/levels_ranks/settings_ranks.ini
 	- addons/sourcemod/configs/levels_ranks/settings_stats.ini​
 	
-- Перезапустить сервер
+- 重启服务器
 
-Настройка - databases.cfg
+配置 - databases.cfg
 -------------------------
 
-- Если вы собираетесь использовать БД SQLite, то ничего не нужно настраивать и добавлять.
+- 如果您打算使用SQLite数据库，则无需进行任何设置或添加。
 
-- Если вы собираетесь использовать БД MySQL, то вы должны добавить строки, которые даны ниже, в "addons/sourcemod/configs/databases.cfg", а затем отредактировать как вам требуется:
+- 如果您打算使用MySQL数据库，则需要将以下行添加到“addons/sourcemod/configs/databases.cfg”中，然后根据需要进行编辑：
 
 ```
 	"levels_ranks"
@@ -80,5 +80,3 @@
 	}
 ```
 ----------------------------------------------------------------------------------
-
-<a href="//discord.gg/Jc58wjF">Официальный Discord-канал поддержки Levels Ranks</a>
